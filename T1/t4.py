@@ -1,9 +1,9 @@
 num =int(input("Enter a  Number :"))
-binary=0
-count =0 #  
+binary= 0
+count = 0 #  
 
-while num !=0 :
-    binary = binary + (num%2) * (10 **count)
+while num != 0 :
+    binary = binary + (num % 2) * (10 ** count)
     num=num // 2
     # print(num)
     count+=1
